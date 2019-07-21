@@ -1,6 +1,7 @@
-package com.redfin.interview.com.redfin.interview.entity;
+package com.redfin.interview.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

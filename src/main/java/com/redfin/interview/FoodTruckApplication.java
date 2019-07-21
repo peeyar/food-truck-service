@@ -1,6 +1,6 @@
 package com.redfin.interview;
 
-import com.redfin.interview.com.redfin.interview.entity.FoodTruckRepository;
+import com.redfin.interview.service.FoodTruckRepository;
 import com.redfin.interview.service.FoodTruckService;
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Value;

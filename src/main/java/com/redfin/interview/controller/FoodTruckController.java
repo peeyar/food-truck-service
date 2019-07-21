@@ -1,7 +1,7 @@
 package com.redfin.interview.controller;
 
 
-import com.redfin.interview.com.redfin.interview.entity.FoodTruck;
+import com.redfin.interview.entity.FoodTruck;
 import com.redfin.interview.service.FoodTruckService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

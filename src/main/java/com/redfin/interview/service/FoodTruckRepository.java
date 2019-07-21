@@ -1,6 +1,9 @@
-package com.redfin.interview.com.redfin.interview.entity;
+package com.redfin.interview.service;
 
 import java.util.List;
+
+import com.redfin.interview.entity.FoodTruck;
+import com.redfin.interview.sfo.data.loader.service.SanFransiscoFoodTruckInfo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;

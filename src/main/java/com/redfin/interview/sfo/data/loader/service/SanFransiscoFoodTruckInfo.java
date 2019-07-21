@@ -1,7 +1,8 @@
-package com.redfin.interview.com.redfin.interview.entity;
+package com.redfin.interview.sfo.data.loader.service;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -79,9 +80,6 @@ public class SanFransiscoFoodTruckInfo {
     }
     if (startAfter >= 0 && endBefore >= 0 && getCurrentDay().equalsIgnoreCase(dayOfWeek)) {
       this.isOpen = true;
-      System.out.println(
-          "This Location ID is open " + locationId + " Truck Name " + truckName + "Address "
-              + address);
     }
     return isOpen;
   }

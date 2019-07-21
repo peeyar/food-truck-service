@@ -1,8 +1,8 @@
-package com.redfin.interview.service;
+package com.redfin.interview.sfo.data.loader.service;
 
-import com.redfin.interview.com.redfin.interview.entity.FoodTruck;
-import com.redfin.interview.com.redfin.interview.entity.FoodTruckRepository;
-import com.redfin.interview.com.redfin.interview.entity.SanFransiscoFoodTruckInfo;
+import com.redfin.interview.entity.FoodTruck;
+import com.redfin.interview.service.FoodTruckRepository;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,9 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * Created by VijaySidhu on 7/21/2019.
- */
+
 @Configuration
 @EnableScheduling
 public class SanFransciscoFoodTruckDataLoaderService implements InitializingBean {
